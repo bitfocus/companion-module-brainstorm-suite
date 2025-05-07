@@ -1,12 +1,12 @@
 {
-	"id": "brainstorm-suite",
-	"name": "brainstorm-suite",
+	"id": "companion-module-brainstorm-suite",
+	"name": "Brainstorm Suite",
 	"shortname": "Suite",
 	"description": "Module to control Brainstorm Suite",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-brainstorm-infinity.git",
-	"bugs": "https://github.com/bitfocus/companion-module-brainstorm-infinity/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-brainstorm-suite.git",
+	"bugs": "https://github.com/bitfocus/companion-module-brainstorm-suite/issues",
 	"maintainers": [
 		{
 			"name": "brainstorm3d",
@@ -22,5 +22,5 @@
 	"legacyIds": [],
 	"manufacturer": "Brainstorm Multimedia",
 	"products": ["Brainstorm Suite"],
-	"keywords": ["brainstorm", "Infinity", "Aston", "Edison", "Companion"]
+	"keywords": ["brainstorm", "Infinity", "Aston", "Edison", "Companion", "Suite"]
 }
