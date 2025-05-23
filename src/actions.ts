@@ -5,7 +5,7 @@ import { SetVariableValue } from './variables.js'
 export function UpdateActions(self: ModuleInstance): void {
 	self.setActionDefinitions({
 		startVsetApp: {
-			name: 'Start InfintiySet',
+			name: 'Start InfinitySet',
 			options: [
 				{
 					id: 'appId',
@@ -25,9 +25,9 @@ export function UpdateActions(self: ModuleInstance): void {
 					],
 				},
 				{
-					id: 'proyect',
+					id: 'project',
 					type: 'textinput',
-					label: 'Proyect/Version',
+					label: 'Project/Version',
 					default: '',
 				},
 				{
@@ -60,8 +60,8 @@ export function UpdateActions(self: ModuleInstance): void {
 						layout_scheme: typeof event.options.scheme === 'string' ? event.options.scheme : 'Default',
 					}
 
-					if (event.options.proyect !== '') {
-						jsonCommand.open_all = String(event.options.proyect)
+					if (event.options.project !== '') {
+						jsonCommand.open_all = String(event.options.project)
 					}
 
 					let args = ''
@@ -119,9 +119,9 @@ export function UpdateActions(self: ModuleInstance): void {
 					],
 				},
 				{
-					id: 'proyect',
+					id: 'project',
 					type: 'textinput',
-					label: 'Proyect/Version',
+					label: 'Project/Version',
 					default: '',
 				},
 				{
@@ -154,8 +154,8 @@ export function UpdateActions(self: ModuleInstance): void {
 						layout_scheme: typeof event.options.scheme === 'string' ? event.options.scheme : 'Default',
 					}
 
-					if (event.options.proyect !== '') {
-						jsonCommand.open_all = String(event.options.proyect)
+					if (event.options.project !== '') {
+						jsonCommand.open_all = String(event.options.project)
 					}
 
 					let args = ''
@@ -213,9 +213,9 @@ export function UpdateActions(self: ModuleInstance): void {
 					],
 				},
 				{
-					id: 'proyect',
+					id: 'project',
 					type: 'textinput',
-					label: 'Proyect/Version',
+					label: 'Project/Version',
 					default: '',
 				},
 				{
@@ -248,8 +248,8 @@ export function UpdateActions(self: ModuleInstance): void {
 						layout_scheme: typeof event.options.scheme === 'string' ? event.options.scheme : 'Default',
 					}
 
-					if (event.options.proyect !== '') {
-						jsonCommand.open_all = String(event.options.proyect)
+					if (event.options.project !== '') {
+						jsonCommand.open_all = String(event.options.project)
 					}
 
 					let args = ''
@@ -297,9 +297,9 @@ export function UpdateActions(self: ModuleInstance): void {
 					default: 'Suite60',
 				},
 				{
-					id: 'proyect',
+					id: 'project',
 					type: 'textinput',
-					label: 'Proyect/Version',
+					label: 'Project/Version',
 					default: '',
 				},
 				{
@@ -330,8 +330,8 @@ export function UpdateActions(self: ModuleInstance): void {
 						layout: 'Classic',
 					}
 
-					if (event.options.proyect !== '') {
-						jsonCommand.open_all = String(event.options.proyect)
+					if (event.options.project !== '') {
+						jsonCommand.open_all = String(event.options.project)
 					}
 
 					let args = ''
